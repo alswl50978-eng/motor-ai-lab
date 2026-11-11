@@ -4,7 +4,7 @@
 
 - 실행: https://alswl50978-eng.github.io/motor-ai-lab/
 - 소스: https://github.com/alswl50978-eng/motor-ai-lab
-- 학생 학습지: `student-pack.pdf` (3쪽)
+- 학생 학습지: `student-pack.pdf` (4쪽 미션북)
 - 교사용 운영안: `teacher-guide.pdf` (2쪽)
 
 ## 수업 흐름
