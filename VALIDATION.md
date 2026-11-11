@@ -19,6 +19,13 @@
 - 공식 성취수준 문구는 확인하지 못했습니다. 수업의 관찰 평가 항목은 제작한 제안입니다.
 - 오류가 전혀 없음을 보증하지 않습니다. 담당 교사는 실제 수업 기기에서 A/B 학습과 PDF 저장을 사전 확인할 수 있습니다.
 
+## 공개 배포 확인
+
+- GitHub API에서 저장소 visibility가 `PUBLIC`임을 확인했습니다.
+- GitHub Pages API에서 배포 상태 `built`, 오류 메시지 없음, 게시 경로 `main` 브랜치 `/`를 확인했습니다.
+- `https://alswl50978-eng.github.io/motor-ai-lab/` 및 `style.css`, `app.js`, `model.js`, `student-pack.pdf`, `teacher-guide.pdf`의 HTTP 200 응답을 확인했습니다.
+- 위 6개 배포 파일을 다운로드한 바이트와 로컬 원본이 모두 일치했습니다. PDF의 응답 MIME 타입은 `application/pdf`입니다.
+
 ## 재현
 
 ```sh
