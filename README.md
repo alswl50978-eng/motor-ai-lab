@@ -14,7 +14,7 @@
 - 직접 가중치를 학습하는 신경망 실험, 임계값 조정, 혼동 행렬, 실험 비교표
 - 6문항 모둠 학습지, 답변의 브라우저 로컬 저장, 작성한 답변 인쇄/PDF 저장
 - [학생 학습자료 및 빈 학습지 PDF](student-pack.pdf): 4쪽
-- [교사용 운영안 PDF](teacher-guide.pdf): 2쪽
+- [교사용 운영안 PDF](teacher-guide.pdf): 3쪽
 - 합성 평가 데이터 CSV 다운로드
 
 ## 수업 진행
@@ -25,9 +25,9 @@
 | 8–18분 | 입력·은닉층·가중치·출력, 학습과 추론 구분 |
 | 18–38분 | 조건 A/B 실제 학습, 같은 임계값에서 성능 비교, 오분류 ID 탐색 |
 | 38–52분 | 임계값 변경, 생산팀·정비팀 입장 토론, 개선·재검증 계획 |
-| 52–60분 | 30초 모둠 공유, 퇴장권 작성 |
+| 52–60분 | 다른 활용 분야의 입력·출력·적용 이유 탐색, 개인 설명과 모둠 공유 |
 
-교육과정: 2022 개정 인공지능 기초 [12인기02-05], [12인기02-06]. 해당 성취기준을 고3 수준으로 재구성했습니다. 실제 학년의 적용 교육과정은 담당 교사가 확인해야 합니다. 관찰 평가 항목은 수업용 제안이며 공식 A–E 성취수준이 아닙니다.
+교육과정: 2026학년도 고3 · 2015 개정 인공지능 기초. 핵심 [12인기02-09] 딥러닝의 개념을 이해하고, 활용 분야를 탐색한다. 연계 [12인기03-07], [12인기03-08]. Q2 개념 설명·Q6 활용 탐색·Q3 실험 평가로 연결한다. 수준별 피드백은 자체 설계안이며 공식 성취수준/학교 승인 평가계획이 아니다. 학교 평가계획 원문 확인이 남아 있다.
 
 학과 연계는 학교 공식 소개의 PLC, 자동화 설비, 전기설비 유지보수 내용에 기반합니다. 학교 사이트의 학과 명칭 표기가 서로 다른 부분이 있어 요청한 ‘전기제어과’를 사용했습니다. 학교 공식 발행 자료는 아닙니다.
 
@@ -80,7 +80,8 @@ PDF 재생성은 `python build_pdf.py`로 수행합니다. Python 패키지 `rep
 
 ## 출처
 
-- [교육부: 2022 개정 교육과정 고시](https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=141&boardSeq=93458&lev=0&search=%29): 별책 10, MCP `get_standard` 원문과 출처 메타데이터 PDF 192쪽. 후속 개정 반영 여부는 별도 확인 필요.
+- [교육부: 교육부 고시 제2020-236호](https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=141&boardSeq=81884&lev=0): 2015 개정 교육과정의 일부 개정, 별책 10 인공지능 기초. 핵심 [12인기02-09], 연계 [12인기03-07], [12인기03-08].
+- [한국과학창의재단: 정보과학 영재교육 프로그램 기준개발 연구](https://cdn.kosac.re.kr/files/legacy_data/jnrepo/upload/jnBrdBoard/202409/afef3c22f48a433fa6e765fd2c3ca6be_1725238599067.pdf): 인쇄면 49–50쪽에 수록된 2015 개정 인공지능 기초 성취기준과 대조. 공식 수준별 성취수준의 근거로 사용하지 않음.
 - [청주공업고등학교 학과 소개](https://school.cbe.go.kr/ck-h/M01190206/): 전기제어과 학습 내용. 공식 페이지 검색 결과 확인; 원문 직접 열기는 도구에서 제한됨.
 - [TensorFlow: Overfit and underfit](https://www.tensorflow.org/tutorials/keras/overfit_and_underfit): 학습과 일반화 참고.
 - [Google: Accuracy, recall, precision](https://developers.google.com/machine-learning/crash-course/classification/accuracy-precision-recall): 성능 지표와 임계값.

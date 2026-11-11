@@ -1,3 +1,12 @@
+## Curriculum revision: 2026-11-11
+
+- Confirmed audience: grade 12 in school year 2026; corrected to 2015 curriculum.
+- Main standard: 12AI02-09 (Korean code in index.html). Linked training/evaluation standards: 03-07 and 03-08.
+- Q2 concept/PLC comparison and Q6 application exploration updated.
+- Official achievement levels and school assessment plan remain unverified; rubric is a lesson proposal.
+- DOM regression passed; student PDF 4 pages and teacher PDF 3 pages rendered and reviewed.
+- Local revision only; GitHub/Pages not updated. Historical validation follows.
+
 # 검증 기록
 
 확인일: 2026-11-11. 아래는 실제 수행한 검사와 한계를 구분한 기록입니다.
